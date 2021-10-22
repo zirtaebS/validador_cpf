@@ -1,0 +1,77 @@
+*{
+    font-family:'Arial Narrow Bold', sans-serif;
+    font-weight:normal;
+    margin: 0px;
+}
+.cabecalho{
+    background-color: rgb(44, 43, 43);
+    color: white;
+    padding: 100px;
+    padding-left: 300px;
+}
+body{
+    background-color: rgb(247, 247, 247);
+}
+.cabecalho h1{
+    margin-bottom: 15px;
+    font-size: 70px;
+    font-weight:normal;
+}
+.cabecalho h3{
+    margin-left: 10px;
+    padding-top: 20px;
+}
+.caixaTexto{
+    padding: 70px;
+    padding-left: 300px;
+}
+.caixaTexto label{
+    font-size: 20px;
+    background-color: rgb(226, 222, 222);
+    border: 1px solid black;
+    border-radius: 5px 0px 0px 5px;
+    padding: 15px;
+}
+#idcpf{
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 0px 5px 5px 0px;
+    margin-left: -5px;
+    padding-top: 19.5px;
+    padding-bottom: 15px;
+    padding-right: 300px;
+}
+.botao{
+    margin-left: 300px;
+}
+.botao input{
+    font-size: 20px;
+    padding: 10px 15px 10px 15px;
+    background-color: rgb(72, 179, 228);
+    color:white;
+    border-radius: 5px;
+}
+.valido{
+    padding-left: 300px;
+    margin-top: 50px;
+}
+.valido strong{
+    font-family:Verdana, sans-serif;
+    background-color: rgb(154, 231, 154);
+    padding: 20px;
+    padding-right: 400px;
+    border: 3px solid rgb(108, 161, 108);
+    border-radius: 5px;
+}
+.invalido{
+    padding-left: 300px;
+    margin-top: 50px;
+}
+.invalido strong{
+    font-family:Verdana, sans-serif;
+    background-color: rgb(252, 113, 113);
+    padding: 20px;
+    padding-right: 385px;
+    border: 3px solid rgb(184, 81, 81);
+    border-radius: 5px;
+}
