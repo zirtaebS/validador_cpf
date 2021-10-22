@@ -51,11 +51,11 @@ body{
     color:white;
     border-radius: 5px;
 }
-.valido{
+#valido{
     padding-left: 300px;
     margin-top: 50px;
 }
-.valido strong{
+#valido strong{
     font-family:Verdana, sans-serif;
     background-color: rgb(154, 231, 154);
     padding: 20px;
@@ -63,11 +63,11 @@ body{
     border: 3px solid rgb(108, 161, 108);
     border-radius: 5px;
 }
-.invalido{
+#invalido{
     padding-left: 300px;
     margin-top: 50px;
 }
-.invalido strong{
+#invalido strong{
     font-family:Verdana, sans-serif;
     background-color: rgb(252, 113, 113);
     padding: 20px;

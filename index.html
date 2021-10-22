@@ -18,13 +18,16 @@
         <small>Digite apenas numeros</small>
     </div>
     <div class="botao">
-        <input type="button" id="idbotao" value="Validar !">
+        <input type="button" id="idbotao" value="Validar !" onclick="validar()">
     </div>
-    <div class="valido">
+    <div id="valido" style="display: none;">
         <strong> ESTE CPF É VALIDO </strong>
     </div>
-    <div class="invalido">
+    <div id="invalido" style="display: none;">
         <strong>ESTE CPF É INVALIDO</strong>
     </div>
 </body>
+    
+    <script src="./validador.js"></script>
+    
 </html>
